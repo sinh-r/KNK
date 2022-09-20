@@ -316,7 +316,13 @@ button {
      height: 70px;
 }
 
-#logo_name{
+#logo_name_person{
+     color: rgb(86, 49, 9);
+     font-size: large;
+     font-weight: bold;
+}
+
+#logo_name_role{
      color: rgb(86, 49, 9);
      font-size: large;
      font-weight: bold;
@@ -360,7 +366,6 @@ button {
      text-align: center;
      display: inline-block;
      transition: ease-in all 0.5s;
-     float: left;
 }
 
 .text-bg a:hover {
@@ -434,6 +439,16 @@ button {
 .we_do .titlepage h2 {
      color: #fff;
      padding-bottom: 10px;
+}
+
+.call_of_action h1{
+     color: #fff;
+     font-size: 50px;
+     font-weight: bold;
+     margin: 0px 50px 90px 50px;
+     padding: 20px;
+     border:  #e5af23 dotted 10px;
+
 }
 
 .titlepage span {
